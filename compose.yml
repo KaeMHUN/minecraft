@@ -21,6 +21,5 @@ services:
       LEVEL: "hbf_server"
       OPS: |-
         KaeM
-        Biodan
     volumes:
       - "/home/kaem/minecraft:/data"

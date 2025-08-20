@@ -24,7 +24,6 @@ services:
         KaeM
       MODS: |-
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
-        https://cdn.modrinth.com/data/DsjH66Cm/versions/YNi0IQvc/nearbycrafting-1.0.3.jar
       RCON_CMDS_LAST_DISCONNECT: |-
         save-all
     volumes:

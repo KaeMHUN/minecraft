@@ -18,11 +18,13 @@ services:
       TZ: "Europe/Budapest"
       DIFFICULTY: "2"
       PVP: "false"
-      VIEW_DISTANCE: "16"
+      VIEW_DISTANCE: "10"
       LEVEL: "hbf_server"
       OPS: |-
         KaeM
       MODS: |-
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
+      RCON_CMDS_LAST_DISCONNECT: |-
+        save-all
     volumes:
       - "/home/kaem/minecraft:/data"

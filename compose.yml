@@ -8,7 +8,7 @@ services:
     stdin_open: true
     ports:
       - "25565:25565"
-      - "8099:8123"
+      - "8099:8080"
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
@@ -27,6 +27,7 @@ services:
       MODS: |-
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
         https://cdn.modrinth.com/data/gvQqBUqZ/versions/pDfTqezk/lithium-fabric-0.18.0%2Bmc1.21.8.jar
+        https://cdn.modrinth.com/data/34T8oVNY/versions/sCKfp2wx/Pl3xMap-1.21.8-534.jar
       RCON_CMDS_LAST_DISCONNECT: |-
         save-all
     volumes:

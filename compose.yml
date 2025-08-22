@@ -25,6 +25,7 @@ services:
       OPS: |-
         KaeM
       MODS: |-
+        https://cdn.modrinth.com/data/P7dR8mSH/versions/jjBL6OsN/fabric-api-0.132.0%2B1.21.8.jar
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
         https://cdn.modrinth.com/data/gvQqBUqZ/versions/pDfTqezk/lithium-fabric-0.18.0%2Bmc1.21.8.jar
         https://cdn.modrinth.com/data/34T8oVNY/versions/sCKfp2wx/Pl3xMap-1.21.8-534.jar

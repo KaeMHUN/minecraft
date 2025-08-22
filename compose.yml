@@ -22,6 +22,11 @@ services:
       PVP: "false"
       VIEW_DISTANCE: "10"
       LEVEL: "hbf_server"
+      ENABLE_WHITELIST: "true"
+      WHITELIST: |-
+        KaeMHUN
+        Biodan01
+        Filwy
       OPS: |-
         KaeM
       MODS: |-

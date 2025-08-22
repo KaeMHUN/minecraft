@@ -8,6 +8,7 @@ services:
     stdin_open: true
     ports:
       - "25565:25565"
+      - "8099:8123"
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
@@ -25,6 +26,7 @@ services:
         KaeM
       MODS: |-
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
+        https://mediafilez.forgecdn.net/files/6769/648/Dynmap-3.7-beta-10-fabric-1.21.6.jar
       RCON_CMDS_LAST_DISCONNECT: |-
         save-all
     volumes:

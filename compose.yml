@@ -34,6 +34,7 @@ services:
         https://cdn.modrinth.com/data/uCdwusMi/versions/9yaYzpcr/DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar
         https://cdn.modrinth.com/data/gvQqBUqZ/versions/pDfTqezk/lithium-fabric-0.18.0%2Bmc1.21.8.jar
         https://cdn.modrinth.com/data/34T8oVNY/versions/sCKfp2wx/Pl3xMap-1.21.8-534.jar
+        https://cdn.modrinth.com/data/uXXizFIs/versions/CtMpt7Jr/ferritecore-8.0.0-fabric.jar
       RCON_CMDS_LAST_DISCONNECT: |-
         save-all
     volumes:
